@@ -5,7 +5,12 @@ int main(){
     int x,y,z;
     cout<<"enter the value of x: ";
     cin>>x;
-    switch (x>= 5 )
+    cout<<"enter the value of y: ";
+    cin>>y;
+    cout<<"enter the value of z: ";
+    cin>>z;
+
+    switch (x==1 || y==2 || z ==3)
     {
     case 1:
         cout<<"go to hell musa the pasamoda";
